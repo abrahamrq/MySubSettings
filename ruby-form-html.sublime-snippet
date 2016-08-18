@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<%= form_for ${1:@object} do |f| %>
+  ${2:<!-- content -->}
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rform</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
